@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38448C141D617E300018143F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38448C131D617E300018143F /* AppDelegate.swift */; };
+		38448C161D617E300018143F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38448C151D617E300018143F /* ViewController.swift */; };
+		38448C191D617E300018143F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38448C171D617E300018143F /* Main.storyboard */; };
+		38448C1B1D617E300018143F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38448C1A1D617E300018143F /* Assets.xcassets */; };
+		38448C1E1D617E300018143F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38448C1C1D617E300018143F /* LaunchScreen.storyboard */; };
+		38448C291D617E300018143F /* RedBookAnimateDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38448C281D617E300018143F /* RedBookAnimateDemoTests.swift */; };
+		38448C341D617E300018143F /* RedBookAnimateDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38448C331D617E300018143F /* RedBookAnimateDemoUITests.swift */; };
+		38448C421D6180700018143F /* EPScrollview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38448C411D6180700018143F /* EPScrollview.swift */; };
+		38C7C3721D618B6600C687E4 /* EPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C7C3711D618B6600C687E4 /* EPView.swift */; };
+		38C7C3741D619D2700C687E4 /* EPBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C7C3731D619D2700C687E4 /* EPBaseView.swift */; };
+		38C7C3761D61B3FA00C687E4 /* EPLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C7C3751D61B3FA00C687E4 /* EPLoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38448C251D617E300018143F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38448C081D617E300018143F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38448C0F1D617E300018143F;
+			remoteInfo = RedBookAnimateDemo;
+		};
+		38448C301D617E300018143F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38448C081D617E300018143F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38448C0F1D617E300018143F;
+			remoteInfo = RedBookAnimateDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38448C101D617E300018143F /* RedBookAnimateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedBookAnimateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38448C131D617E300018143F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38448C151D617E300018143F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38448C181D617E300018143F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38448C1A1D617E300018143F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38448C1D1D617E300018143F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38448C1F1D617E300018143F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38448C241D617E300018143F /* RedBookAnimateDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBookAnimateDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38448C281D617E300018143F /* RedBookAnimateDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBookAnimateDemoTests.swift; sourceTree = "<group>"; };
+		38448C2A1D617E300018143F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38448C2F1D617E300018143F /* RedBookAnimateDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBookAnimateDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38448C331D617E300018143F /* RedBookAnimateDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBookAnimateDemoUITests.swift; sourceTree = "<group>"; };
+		38448C351D617E300018143F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38448C411D6180700018143F /* EPScrollview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPScrollview.swift; sourceTree = "<group>"; };
+		38C7C3711D618B6600C687E4 /* EPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPView.swift; sourceTree = "<group>"; };
+		38C7C3731D619D2700C687E4 /* EPBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPBaseView.swift; sourceTree = "<group>"; };
+		38C7C3751D61B3FA00C687E4 /* EPLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPLoginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38448C0D1D617E300018143F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38448C211D617E300018143F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38448C2C1D617E300018143F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38448C071D617E2F0018143F = {
+			isa = PBXGroup;
+			children = (
+				38448C121D617E300018143F /* RedBookAnimateDemo */,
+				38448C271D617E300018143F /* RedBookAnimateDemoTests */,
+				38448C321D617E300018143F /* RedBookAnimateDemoUITests */,
+				38448C111D617E300018143F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38448C111D617E300018143F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38448C101D617E300018143F /* RedBookAnimateDemo.app */,
+				38448C241D617E300018143F /* RedBookAnimateDemoTests.xctest */,
+				38448C2F1D617E300018143F /* RedBookAnimateDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38448C121D617E300018143F /* RedBookAnimateDemo */ = {
+			isa = PBXGroup;
+			children = (
+				38448C131D617E300018143F /* AppDelegate.swift */,
+				38448C151D617E300018143F /* ViewController.swift */,
+				38C7C3731D619D2700C687E4 /* EPBaseView.swift */,
+				38448C411D6180700018143F /* EPScrollview.swift */,
+				38C7C3711D618B6600C687E4 /* EPView.swift */,
+				38C7C3751D61B3FA00C687E4 /* EPLoginView.swift */,
+				38448C171D617E300018143F /* Main.storyboard */,
+				38448C1A1D617E300018143F /* Assets.xcassets */,
+				38448C1C1D617E300018143F /* LaunchScreen.storyboard */,
+				38448C1F1D617E300018143F /* Info.plist */,
+			);
+			path = RedBookAnimateDemo;
+			sourceTree = "<group>";
+		};
+		38448C271D617E300018143F /* RedBookAnimateDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				38448C281D617E300018143F /* RedBookAnimateDemoTests.swift */,
+				38448C2A1D617E300018143F /* Info.plist */,
+			);
+			path = RedBookAnimateDemoTests;
+			sourceTree = "<group>";
+		};
+		38448C321D617E300018143F /* RedBookAnimateDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38448C331D617E300018143F /* RedBookAnimateDemoUITests.swift */,
+				38448C351D617E300018143F /* Info.plist */,
+			);
+			path = RedBookAnimateDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38448C0F1D617E300018143F /* RedBookAnimateDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38448C381D617E300018143F /* Build configuration list for PBXNativeTarget "RedBookAnimateDemo" */;
+			buildPhases = (
+				38448C0C1D617E300018143F /* Sources */,
+				38448C0D1D617E300018143F /* Frameworks */,
+				38448C0E1D617E300018143F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedBookAnimateDemo;
+			productName = RedBookAnimateDemo;
+			productReference = 38448C101D617E300018143F /* RedBookAnimateDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38448C231D617E300018143F /* RedBookAnimateDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38448C3B1D617E300018143F /* Build configuration list for PBXNativeTarget "RedBookAnimateDemoTests" */;
+			buildPhases = (
+				38448C201D617E300018143F /* Sources */,
+				38448C211D617E300018143F /* Frameworks */,
+				38448C221D617E300018143F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38448C261D617E300018143F /* PBXTargetDependency */,
+			);
+			name = RedBookAnimateDemoTests;
+			productName = RedBookAnimateDemoTests;
+			productReference = 38448C241D617E300018143F /* RedBookAnimateDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38448C2E1D617E300018143F /* RedBookAnimateDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38448C3E1D617E300018143F /* Build configuration list for PBXNativeTarget "RedBookAnimateDemoUITests" */;
+			buildPhases = (
+				38448C2B1D617E300018143F /* Sources */,
+				38448C2C1D617E300018143F /* Frameworks */,
+				38448C2D1D617E300018143F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38448C311D617E300018143F /* PBXTargetDependency */,
+			);
+			name = RedBookAnimateDemoUITests;
+			productName = RedBookAnimateDemoUITests;
+			productReference = 38448C2F1D617E300018143F /* RedBookAnimateDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38448C081D617E300018143F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = eggplant;
+				TargetAttributes = {
+					38448C0F1D617E300018143F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YW7M27LN28;
+					};
+					38448C231D617E300018143F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YW7M27LN28;
+						TestTargetID = 38448C0F1D617E300018143F;
+					};
+					38448C2E1D617E300018143F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YW7M27LN28;
+						TestTargetID = 38448C0F1D617E300018143F;
+					};
+				};
+			};
+			buildConfigurationList = 38448C0B1D617E300018143F /* Build configuration list for PBXProject "RedBookAnimateDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38448C071D617E2F0018143F;
+			productRefGroup = 38448C111D617E300018143F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38448C0F1D617E300018143F /* RedBookAnimateDemo */,
+				38448C231D617E300018143F /* RedBookAnimateDemoTests */,
+				38448C2E1D617E300018143F /* RedBookAnimateDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38448C0E1D617E300018143F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38448C1E1D617E300018143F /* LaunchScreen.storyboard in Resources */,
+				38448C1B1D617E300018143F /* Assets.xcassets in Resources */,
+				38448C191D617E300018143F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38448C221D617E300018143F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38448C2D1D617E300018143F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38448C0C1D617E300018143F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38448C421D6180700018143F /* EPScrollview.swift in Sources */,
+				38448C161D617E300018143F /* ViewController.swift in Sources */,
+				38448C141D617E300018143F /* AppDelegate.swift in Sources */,
+				38C7C3741D619D2700C687E4 /* EPBaseView.swift in Sources */,
+				38C7C3721D618B6600C687E4 /* EPView.swift in Sources */,
+				38C7C3761D61B3FA00C687E4 /* EPLoginView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38448C201D617E300018143F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38448C291D617E300018143F /* RedBookAnimateDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38448C2B1D617E300018143F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38448C341D617E300018143F /* RedBookAnimateDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38448C261D617E300018143F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38448C0F1D617E300018143F /* RedBookAnimateDemo */;
+			targetProxy = 38448C251D617E300018143F /* PBXContainerItemProxy */;
+		};
+		38448C311D617E300018143F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38448C0F1D617E300018143F /* RedBookAnimateDemo */;
+			targetProxy = 38448C301D617E300018143F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38448C171D617E300018143F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38448C181D617E300018143F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38448C1C1D617E300018143F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38448C1D1D617E300018143F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38448C361D617E300018143F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38448C371D617E300018143F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38448C391D617E300018143F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedBookAnimateDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eggplant.RedBookAnimateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38448C3A1D617E300018143F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedBookAnimateDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eggplant.RedBookAnimateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38448C3C1D617E300018143F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedBookAnimateDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eggplant.RedBookAnimateDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedBookAnimateDemo.app/RedBookAnimateDemo";
+			};
+			name = Debug;
+		};
+		38448C3D1D617E300018143F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedBookAnimateDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eggplant.RedBookAnimateDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedBookAnimateDemo.app/RedBookAnimateDemo";
+			};
+			name = Release;
+		};
+		38448C3F1D617E300018143F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedBookAnimateDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eggplant.RedBookAnimateDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedBookAnimateDemo;
+			};
+			name = Debug;
+		};
+		38448C401D617E300018143F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedBookAnimateDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eggplant.RedBookAnimateDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedBookAnimateDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38448C0B1D617E300018143F /* Build configuration list for PBXProject "RedBookAnimateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38448C361D617E300018143F /* Debug */,
+				38448C371D617E300018143F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38448C381D617E300018143F /* Build configuration list for PBXNativeTarget "RedBookAnimateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38448C391D617E300018143F /* Debug */,
+				38448C3A1D617E300018143F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38448C3B1D617E300018143F /* Build configuration list for PBXNativeTarget "RedBookAnimateDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38448C3C1D617E300018143F /* Debug */,
+				38448C3D1D617E300018143F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38448C3E1D617E300018143F /* Build configuration list for PBXNativeTarget "RedBookAnimateDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38448C3F1D617E300018143F /* Debug */,
+				38448C401D617E300018143F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38448C081D617E300018143F /* Project object */;
+}
